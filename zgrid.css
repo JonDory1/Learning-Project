@@ -6,6 +6,12 @@
     flex-wrap: wrap;
     gap: 20px
     }
+.clear {
+    clear: both;
+    }
+.next-paragraph {
+        clear: both;
+    }
 h1  {
     color:cadetblue;
     font-family: Arial, sans-serif;
@@ -22,10 +28,11 @@ p   {
     color:black;
     font-family: Arial, sans-serif;
     }
-footer 
-    {
+footer {
     color:lightgrey;
     font-family: Arial, sans-serif;
+    background-color:cadetblue;
+    padding: 10px;
     }
 a   {
     color:darkgrey;
@@ -40,7 +47,7 @@ img {
 /* These are telling a link (a href) how to behave */
 .link {
 	text-decoration: none;
-	color: blue;
+	color: darkgrey;
 }
 .link:hover {
 	text-decoration: underline;
