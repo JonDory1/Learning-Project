@@ -17,6 +17,8 @@ p {
 footer {
     color:lightgrey;
     font-family: Arial, sans-serif;
+    background-color:cadetblue;
+    padding: 10px;
 }
 a {
     color:darkgrey;
