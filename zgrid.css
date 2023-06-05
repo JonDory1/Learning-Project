@@ -1,0 +1,53 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .grid-item {
+    text-align: center;
+  }
+  
+  .grid-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  h1 {
+    color:cadetblue;
+    font-family: Arial, sans-serif;
+}
+h2 {
+    color:cadetblue;
+    font-family: Arial, sans-serif;
+}
+h3 {
+    color:cadetblue;
+    font-family: Arial, sans-serif;
+}
+p {
+    color:black;
+    font-family: Arial, sans-serif;
+}
+footer {
+    color:lightgrey;
+    font-family: Arial, sans-serif;
+}
+a {
+    color:darkgrey;
+    font-family: Arial, sans-serif;
+}
+img {
+    border-radius: 5%;
+    border-color:darkgray;
+    border-style: solid;
+    border-width:10px
+}
+/* These are telling a link (a href) how to behave */
+.link {
+	text-decoration: none;
+	color: blue;
+}
+.link:hover {
+	text-decoration: underline;
+	text-decoration-color: darkgrey;
+    }
