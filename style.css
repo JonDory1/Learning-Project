@@ -47,3 +47,11 @@ img {
     text-decoration: underline;
     text-decoration-color: darkgrey;
     }
+.intextlink {
+    text-decoration: none;
+    color: cadetblue;
+    }
+.intextlink:hover {
+    text-decoration: underline;
+    text-decoration-color: darkgrey;
+    }
