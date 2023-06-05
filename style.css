@@ -16,3 +16,11 @@ img {
 .greentext {
     color:green;
 }
+#link {
+	text-docoration: none;
+	color: blue;
+}
+#link:hover {
+	text-decoration: underline;
+	text-decoration-color: red;
+    }
