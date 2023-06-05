@@ -33,6 +33,9 @@ footer {
     font-family: Arial, sans-serif;
     background-color:cadetblue;
     padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     }
 a   {
     color:darkgrey;
