@@ -1,11 +1,26 @@
 h1 {
-    color:blue;
+    color:cadetblue;
+    font-family: Arial, sans-serif;
 }
-a {
-    color: red;
+h2 {
+    color:cadetblue;
+    font-family: Arial, sans-serif;
+}
+h3 {
+    color:cadetblue;
+    font-family: Arial, sans-serif;
 }
 p {
-    color:darkgoldenrod;
+    color:black;
+    font-family: Arial, sans-serif;
+}
+footer {
+    color:lightgrey;
+    font-family: Arial, sans-serif;
+}
+a {
+    color:darkgrey;
+    font-family: Arial, sans-serif;
 }
 img {
     border-radius: 5%;
@@ -25,5 +40,5 @@ img {
 }
 .link:hover {
 	text-decoration: underline;
-	text-decoration-color: red;
+	text-decoration-color: darkgrey;
     }
