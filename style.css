@@ -28,11 +28,6 @@ img {
     border-style: solid;
     border-width:10px
 }
-/* Only using greentext to test the over riding of general h1 specification */
-.greentext {
-    color:green;
-    text-decoration: none
-}
 /* These are telling a link (a href) how to behave */
 .link {
 	text-decoration: none;
