@@ -1,47 +1,42 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-  
-  .grid-item {
-    text-align: center;
-  }
-  
-  .grid-item img {
-    max-width: 100%;
-    height: auto;
-  }
-  h1 {
+*{
+  background-color: none;  
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px
+    }
+h1  {
     color:cadetblue;
     font-family: Arial, sans-serif;
-}
-h2 {
+    }
+h2  {
     color:cadetblue;
     font-family: Arial, sans-serif;
-}
-h3 {
+    }
+h3  {
     color:cadetblue;
     font-family: Arial, sans-serif;
-}
-p {
+    }
+p   {
     color:black;
     font-family: Arial, sans-serif;
-}
-footer {
+    }
+footer 
+    {
     color:lightgrey;
     font-family: Arial, sans-serif;
-}
-a {
+    }
+a   {
     color:darkgrey;
     font-family: Arial, sans-serif;
-}
+    }
 img {
     border-radius: 5%;
     border-color:darkgray;
     border-style: solid;
     border-width:10px
-}
+    }
 /* These are telling a link (a href) how to behave */
 .link {
 	text-decoration: none;
